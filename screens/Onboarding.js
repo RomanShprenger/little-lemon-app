@@ -88,7 +88,7 @@ export const Onboarding = () => {
             onPress={() => onboard({ firstName, lastName, email })}
             disabled={!isEmailValid || !isFirstNameValid || !isLastNameValid}
           >
-            <Text style={styles.btntext}>Submit</Text>
+            <Text style={styles.btntext}>Next</Text>
         </Pressable>
       </View>
     </KeyboardAvoidingView>
